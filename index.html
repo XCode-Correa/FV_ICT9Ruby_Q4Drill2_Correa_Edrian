@@ -8,17 +8,32 @@
 
 </head>
 <body>
-<div>
+<div class="container mt-4 bg-light shadow rounded p-3">
     <h1>Heat Index Checker</h1>
     <details class="ontoggle">
         <summary class="">Note:</summary>
         <br>
         <p id="instruct" class='text-dark'></p>
     </details>
+
+    <br>
+
+    <label for="degree">Degree in °C</label>
+    <br>
+    <input type="number" name="degree" id="">
+
+    <br><br>
+
+    <label for="humidity">Humidity in %</label>
+    <br>
+    <input type="number" name="humidity" id="">
+
 </div>
 
 <script>
     document.getElementById("instruct").innerHTML = "<i>Input the temperature (°C) and humidity (%, then click Check to see the heat index and its status.";
+
+
 </script>
 </body>
 </html> 
